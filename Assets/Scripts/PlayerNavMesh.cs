@@ -9,6 +9,7 @@ public class PlayerNavMesh : MonoBehaviour
 
     private NavMeshAgent navMeshAgent;
 
+
     private void Awake()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
